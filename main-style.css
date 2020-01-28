@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+body {
+
+	font-family: 'Titillium Web', sans-serif;
+	background: #666666;
+	height: 120px;
+}
+
+#icon {
+	width: 120px;
+	height: 120px;
+}
+
+header {	
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	background: url(inamoe.gif); 
+	background-repeat: no repeat; 
+	background-position: center; 
+	background-size: cover; 
+	width: 102%;
+	height: 850px; 
+	margin-top: 50px;
+	margin-left: -10px;
+}
+
+#prof{
+
+	width: 30%;
+	
+}
+
+#prof1{
+
+	/*width: 70%;*/
+}
+header h1 { 
+	font-size: 200px; 
+	/*color: #AAF683;*/
+	color: aqua;
+}
+
+*{
+	color: #F1F7EE;
+}
+
+blockquote {
+	color: #051923;
+	text-align: center;
+}
+
+p {
+	color: black;
+}
+nav a {
+
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	color: #E7F59E;
+}
+
+nav a:hover {
+
+	border: 0.5px #F1F7EE solid
+}
+
+nav {
+	position: fixed;
+	width: 100;
+	top: 0;
+	right: 0;
+}
+
+#profile {
+
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	border: 4px solid magenta;
+}
+
+#somepic{
+ 
+	display: flex;
+	justify-content: space-around;
+}
+
+#somepic img {
+
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	border: 2px solid cyan;
+
+}
+
+#educ{
+
+	display:flex; 
+}
+
+footer{
+	color: #DFD9E2;
+	float: right;
+}
+
+form {
+
+	display:inline-block;
+	background-color: #2F4550;
+  	border: #B8DBD9 5px solid;
+  	padding: 35px;
+	width: 40%
+  
+}
+
+.form-title {
+  	margin-bottom: 50px
+}
+
+.form-title h1{
+	color: white;
+ 	font-size: 50px;
+  	text-align: center;
+
+}
+.form-title p{
+	color: black;
+  	font-size:15px;
+  	text-align: center;
+}
+
+.form-body{
+	display: inline-block;
+}
+
+label{
+	color: white;
+}
+
+input::placeholder{
+	color: #000000;
+}
+
+input[type=text], input[type= number], input[type=email] {
+	color: 000000;
+  	background-color: #F4F4F9; 
+  	width: 100%;
+  	border: none;
+  	border-bottom: 2px #FCB07E solid; 
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  	padding: 5px;
+}
+
+.btns{
+	text-align: center;
+  	margin-top: 10px;
+}
+
+
+.btns input{
+	background-color: #4A4E69;
+  	border: white 1px solid;
+  	padding: 10px;
+  	color: white;
+    margin-right: 20px;
+}
+
+
+input [type=submit] {
+	background-image: url(right-arrow.png);
+	background-repeat: no-repeat;
+  	background-size: 20px 20px;
+  	background-position: center;
+	padding-right: 10px
+  
+}
+
+input[type=text]:focus,input[type=number]:focus,input[type=email]:focus {
+	outline: none;
+}
